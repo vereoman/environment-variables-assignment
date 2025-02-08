@@ -3,7 +3,7 @@ const { resolve } = require('path');
 const config = require('./config');
 
 const app = express();
-const port = process.env.PORT || 3010;
+const port = process.env.PORT || 3000;
 
 app.use(express.static('static'));
 
